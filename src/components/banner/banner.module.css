@@ -1,0 +1,87 @@
+.left, .right {
+    max-height: 350px;
+    border: 1px solid var(--primaryColor);
+  }
+  
+  .left {
+    /* No specific styling needed for now */
+    width: 20%;
+  }
+  
+  .left ul {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+  }
+  
+  .left li {
+    border-bottom: 1px solid var(--primaryColor);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+  
+  .right {
+    width: 80%;
+    display: flex;
+    justify-content: center; /* Center the carousel content */
+  }
+  
+  .cont {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .left a:hover {
+    background-color: var(--primaryColor);
+    color: white;
+  }
+  
+  .img {
+    max-height: 350px;
+
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+  }
+  
+  .slideWrapper {
+    position: relative;
+  }
+  
+  .overlayText {
+    position: absolute;
+    bottom: 160px;
+    left: 30px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+ 
+  
+  @media screen and (max-width: 768px) {
+    .left {
+      display: none;
+      width: 0;
+    }
+    .right {
+      width: 100%;
+      border: none;
+    }
+    .m div:nth-child(1) {
+        margin: 0;
+       width: 100%;
+      }
+      .overlayText{
+        font-size: 1rem;
+        left: 15px;
+        bottom: 120px;
+      }
+  }
+  

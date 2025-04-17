@@ -1,0 +1,36 @@
+.cont{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cont div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  
+}
+
+.cont .icon{
+   font-size: 30px;
+   color: var(--primaryColor);
+}
+
+.cont span{
+    font-size: .7rem;
+    color: #5c5b5b;
+    font-weight: bold;
+}
+  @media screen and (max-width: 768px) {
+    .cont {
+      flex-direction: column;
+      /* gap: 50px; */
+      justify-content: left;
+      align-items: start;
+    }
+    .cont div{
+        border-bottom: 1px double black;
+        width: 100%;
+        padding: 20px 0;
+    }
+}
