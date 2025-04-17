@@ -71,7 +71,7 @@ function Navbar() {
                 <button>
                   <FaSearch size={20} />
                 </button>
-              </form>
+              </form> 
             </div>
     </div>
     </nav>
