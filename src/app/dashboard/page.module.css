@@ -1,0 +1,69 @@
+.formContainer {
+  max-width: 600px;
+  margin: 6rem auto;
+  padding: 2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.title{
+    margin-bottom: 20px;
+    color: var(--primaryColor);
+}
+.input,
+.textarea,
+.fileInput {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--primaryColor);
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.input:focus,
+.textarea:focus,
+.fileInput:focus {
+  border-color: var(--primaryColor);
+  outline: none;
+}
+
+.textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.button {
+  background-color: var(--primaryColor);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover:not(:disabled) {
+  background-color: var(--primaryColor);
+}
+
+.button:disabled {
+  background-color: #93c5fd;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #dc2626;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 640px) {
+  .formContainer {
+    margin-top: 4rem;
+    padding: 1rem;
+  }
+}
