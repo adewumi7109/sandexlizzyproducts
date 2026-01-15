@@ -1,5 +1,5 @@
 .footer {
-    background-color: #1f2937; /* Tailwind's gray-900 */
+    background-color: var(--primaryColor); /* Tailwind's gray-900 */
     color: white;
     padding: 2rem 0;
     margin-top: 2.5rem;
@@ -31,7 +31,7 @@
   }
   
   .primaryColor {
-    color: var(--primaryColor); /* Or use a hex code if not using CSS vars */
+    color: #000; /* Or use a hex code if not using CSS vars */
   }
   
   .gray400 {

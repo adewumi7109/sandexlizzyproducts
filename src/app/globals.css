@@ -9,10 +9,14 @@ body {
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primaryColor:#A020F0;
-  /* --primaryColor:#00771a; */
-  --secondaryColor:rgba(31, 41, 55, 0.1);
-  --grey: #f4f4f4;
+  /* --primaryColor:#A020F0;
+
+  --secondaryColor:rgba(31, 41, 55, 0.1); */
+    /* --primaryColor:#A020F0; */
+
+ --primaryColor: #273753;        /* Dark charcoal grey - for buttons, CTAs */
+--secondaryColor: #E2E8F0;      /* Light grey - for backgrounds, cards */
+
 }
 
 
